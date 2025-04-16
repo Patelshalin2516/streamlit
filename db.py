@@ -10,8 +10,8 @@ def connect_to_mysql():
     return mysql.connector.connect(
         host='localhost',
         user='root',
-        password='root',
-        database='SalesDB'
+        password='PASSWORD',
+        database='YOUR_DB'
     )
 
 def query_mysql(query):
@@ -24,7 +24,7 @@ def query_mysql(query):
     return result
 
 # --- Gemini API query ---
-API_KEY = 'AIzaSyCx5zkde1v8rZ8nBZ4LAO2aIGA1UsVrmBA'
+API_KEY = "API_KEY"
 
 def query_gemini(user_question):
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro-latest:generateContent?key={API_KEY}"
