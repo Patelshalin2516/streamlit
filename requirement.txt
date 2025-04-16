@@ -1,0 +1,5 @@
+pip install mysql-connector-python
+pip install streamlit
+pip install pandas
+pip insatll plotly
+pip install request
