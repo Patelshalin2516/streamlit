@@ -5,7 +5,7 @@ from PIL import Image
 import google.generativeai as genai
 
 # ✅ Set Gemini API key
-genai.configure(api_key="AIzaSyDj-GmVC0GJl9lFyTciiKhOl4Sc08S1Y6k")
+genai.configure(api_key="API_KEY")
 
 st.set_page_config(page_title="Image Chat with Gemini", layout="wide")
 st.title("Chat with your Image using Gemini 1.5")
