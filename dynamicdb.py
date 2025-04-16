@@ -3,18 +3,19 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 import requests
-
+import pymysql
 # Gemini API Key
 GEMINI_API_KEY = "API_KEY"
 
 # Connect to DB
 def connect_to_db(host, user, password, database):
-    return mysql.connector.connect(
-        host=host,
-        user=user,
-        password=password,
-        database=database
+    return conn = pymysql.connect(
+        host='your-db-host',
+        user='your-username',
+        password='your-password',
+        database='your-db-name'
     )
+
 
 # Get schema
 def get_schema(db):
