@@ -5,7 +5,7 @@ import fitz  # PyMuPDF
 import google.generativeai as genai
 
 # ✅ Direct Gemini API key here (for local testing only)
-genai.configure(api_key="AIzaSyDj-GmVC0GJl9lFyTciiKhOl4Sc08S1Y6k")
+genai.configure(api_key="API_KEY")
 
 st.set_page_config(page_title="Chat with PDF using Gemini", layout="wide")
 st.title("Chat with your PDF using Gemini Pro")
