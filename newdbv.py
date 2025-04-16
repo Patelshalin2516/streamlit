@@ -5,7 +5,7 @@ import plotly.express as px
 import requests
 
 # Gemini API Key
-GEMINI_API_KEY = "AIzaSyCx5zkde1v8rZ8nBZ4LAO2aIGA1UsVrmBA"  # Replace this with your actual API key
+GEMINI_API_KEY = "API_KEY"  # Replace this with your actual API key
 
 # --- Function to connect to MySQL database ---
 def connect_to_db(host, user, password, database):
